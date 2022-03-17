@@ -40,3 +40,9 @@ console.log(shoppingCart)
 const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
 shoppingCart[2] = 'Green Tea'
 console.log(shoppingCart)
+
+let x = myFunction(4, 3);
+
+function myFunction(a, b) {
+  return a * b;   
+  console.log(myFunction)

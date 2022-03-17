@@ -103,6 +103,18 @@ if(index ===-1) {
 
 // Filter out companies which have more than one 'o' without the filter method
 
+const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle']
+const filterOut = ['o'];
+let newString = '';
+for (const char of itCompanies){
+    if (filterOut.filter(char)=== -1){
+        newString+= char;
+    }
+}
+console.log(newString)
+
+
+
 // Sort the array using sort() method
 
 const itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle']
